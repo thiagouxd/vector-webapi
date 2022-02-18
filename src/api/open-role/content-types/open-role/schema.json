@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "open_roles",
+  "info": {
+    "singularName": "open-role",
+    "pluralName": "open-roles",
+    "displayName": "Open Role",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hiring": {
+      "type": "boolean"
+    },
+    "reponsabilities": {
+      "type": "richtext"
+    },
+    "cardDescription": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
