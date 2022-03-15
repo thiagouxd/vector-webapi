@@ -18,7 +18,7 @@
     "hiring": {
       "type": "boolean"
     },
-    "reponsabilities": {
+    "responsabilities": {
       "type": "richtext"
     },
     "cardDescription": {
@@ -27,6 +27,9 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "qualifications": {
+      "type": "richtext"
     }
   }
 }

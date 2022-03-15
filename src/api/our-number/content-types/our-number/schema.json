@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_numbers",
+  "info": {
+    "singularName": "our-number",
+    "pluralName": "our-numbers",
+    "displayName": "Our Number",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
