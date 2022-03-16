@@ -5,7 +5,8 @@
     "singularName": "global",
     "pluralName": "globals",
     "displayName": "Global",
-    "name": "global"
+    "name": "global",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -22,15 +23,6 @@
       "repeatable": false,
       "component": "shared.seo",
       "required": true
-    },
-    "favicon": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }
