@@ -13,23 +13,33 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
+      "required": true,
       "type": "string"
     },
     "hiring": {
+      "required": true,
       "type": "boolean"
     },
     "responsabilities": {
+      "required": true,
       "type": "richtext"
     },
     "cardDescription": {
+      "required": true,
       "type": "text"
     },
     "slug": {
+      "required": true,
       "type": "uid",
       "targetField": "title"
     },
     "qualifications": {
+      "required": true,
       "type": "richtext"
+    },
+    "link": {
+      "required": true,
+      "type": "string"
     }
   }
 }
