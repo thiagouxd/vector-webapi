@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_modals",
+  "info": {
+    "singularName": "career-modal",
+    "pluralName": "career-modals",
+    "displayName": "Career Modal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "career": {
+      "type": "string"
+    }
+  }
+}
